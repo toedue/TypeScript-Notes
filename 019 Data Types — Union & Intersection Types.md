@@ -65,7 +65,7 @@ Hello true
 ##  Explanation
 | Symbol | Meaning | Example |
 |---------|----------|----------|
-| `|` | **Union** → either type A or B | `string | number` |
+| `\|`  | **Union** → either type A or B | `string | number` |
 | `&` | **Intersection** → must satisfy both A and B | `A & B` |
 
 ---
@@ -90,7 +90,7 @@ const admin: SuperUser = {
 };
 ```
 
-✅ `SuperUser` combines all properties from both `User` and `Admin`.
+`SuperUser` combines all properties from both `User` and `Admin`.
 
 ---
 
@@ -98,7 +98,7 @@ const admin: SuperUser = {
 
 | Type | Operator | Description |
 |-------|-----------|-------------|
-| **Union** | `|` | Variable can be **one of many types** |
+| **Union** | `\|` | Variable can be **one of many types** |
 | **Intersection** | `&` | Variable must be **all of the combined types** |
 
 ---
